@@ -1,0 +1,38 @@
+Location_Id, Map_Id, Location_Name
+1, 1, Dock
+2, 1, Control Center
+3, 1, Prison
+4, 1, Stronghold
+5, 1, Living Quarters
+6, 1, Factory
+7, 1, Headquarters
+8, 1, Harbor
+9, 1, Industry
+10, 1, Bioweapons
+11, 1, Chemical Engineering
+12, 2, Castle
+13, 2, University
+14, 2, City Hall
+15, 2, Graveyard
+16, 2, Market
+17, 2, Mall
+18, 2, Central Station
+19, 2, Police Station
+20, 2, Fire Department
+21, 2, Zoo
+22, 2, Stadium
+23, 2, Museum
+24, 2, Exhibit
+25, 2, Floating District
+26, 2, Cruise Terminal
+27, 3, Keep
+28, 3, Terraces
+29, 3, Konni OUtpost
+30, 3, Graveyard
+31, 3, Gatehouse
+32, 3, Winery
+33, 3, Town
+34, 3, Ground Zero
+35, 3, Overlook
+36, 3, Lighthouse
+37, 3, Pier
