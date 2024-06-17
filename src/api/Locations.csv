@@ -1,4 +1,4 @@
-Location_Id, Map_Id, Location_Name
+Drop_Location,Map_Id,Location_Name
 1, 1, Dock
 2, 1, Control Center
 3, 1, Prison

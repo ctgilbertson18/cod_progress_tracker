@@ -1,10 +1,11 @@
 // utils/Data.js
 
-const fetchData = async () => {
+export const fetchData = async () => {
     const response = await fetch('http://127.0.0.1:5000/api/data')
     const responseData = await response.json()
 }
-export const Data = [
+
+const Data = [
     {
       id: 1,
       year: 2016,

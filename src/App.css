@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body {
+  background-color: #161616;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  font-family: 'Russo One', sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #f1c40f;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: 'Russo One', sans-serif !important;
+
+}
+.filter-label {
+  margin-right: 10px;
+  font-family: 'Russo One', sans-serif !important;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #f1c40f;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+
+
+select,
+input[type="date"],
+/* Apply the same styling to react-select dropdown */
+.select__control,
+.select__menu,
+.select__option {
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  background-color: #444;
+  color: #888;
+  cursor: pointer;
+  width: 200px;
+  line-height: 1.5; /* Adjust line height if needed */
+  font-family: 'Russo One', sans-serif !important;
+}
+
+select:focus,
+input[type="date"]:focus,
+/* Apply focus styling to react-select dropdown */
+.select__control--is-focused,
+.select__option--is-focused {
+  outline: none;
+  border-color: #f1c40f;
+}
+
+.averages-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.averages-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f1c40f;
+  text-transform: uppercase;
+}
+
+.averages-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.averages-container li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.chart-wrapper {
+  display: flex;
+  justify-content: center; /* Centers the chart horizontally */
+  align-items: center; /* Centers the chart vertically */
+  width: 100%;
+  margin: 20px auto; /* Center the wrapper itself */
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.chart-container canvas {
+  display: block;
+  margin: 0 auto; /* Ensure the canvas is centered */
+  width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-group {
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: 'Russo One', sans-serif !important;
+  }
+}
+
+.averages-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.metric-averages {
+  flex: 1;
+  min-width: 200px;
+}
+
+.custom-select {
+  display: inline-block;
+  width: auto; /* Allow the select box to grow horizontally */
+  margin-top: 5px
+}
+
+.custom-select__control {
+  min-width: 200px; /* Set a minimum width for the control */
+  background-color: #444 !important; /* Important to override react-select styles */
+  border-color: #555 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  height: 36px ; /* Set the height to match other dropdowns */
+  align-content: center;
+  min-width: 200px; /* Set a minimum width for the control */
+}
+
+/* Styles for react-select dropdown */
+.select__control {
+  background-color: #444 !important; /* Important to override react-select styles */
+  border-color: #555 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  height: 36px ; /* Set the height to match other dropdowns */
+  align-content: center;
+  min-width: 200px; /* Set a minimum width for the control */
+}
+
+.custom-select__control--is-focused {
+  border-color: #f1c40f !important;
+  box-shadow: none !important;
+}
+
+.custom-select__menu {
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+.custom-select__option {
+  background-color: #444 !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.custom-select__option--is-focused {
+  background-color: #555 !important;
+}
+
+.custom-select__option--is-selected {
+  background-color: #f1c40f !important;
+  color: #1c1c1c !important;
+}
+.custom-select__multi-value {
+  background-color: #444 !important;
+  color: #777 !important;
+}
+
